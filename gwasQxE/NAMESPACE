@@ -1,0 +1,5 @@
+export(gwasQxE, gwasQxEd, gwasQxE_all, gwasQxEd_all, simPhenoQxE)
+import(gaston)
+importFrom("utils", "read.csv", "write.csv")
+importFrom("stats", "rnorm", "optimize", "var", "pchisq")
+importFrom("MASS", "mvrnorm")
