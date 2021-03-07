@@ -1,6 +1,6 @@
 # gwasQxE
 This repository contains phenotype data, genotype data and an R package ("gwasQxE") corresponding to a manuscript titled "Exploring Efficient Linear Mixed Models to Detect Quantitative Trait Locus-by-environment Interactions".
-The main objective of the study was to perform genome-wide association study to detect Quantitative Trait Locus-by-environment (QxE) Interactions .
+The main objective of the study was to perform genome-wide association study to detect Quantitative Trait Locus-by-environment (QxE) Interactions.
 
 The following files are included with this distribution.
 
