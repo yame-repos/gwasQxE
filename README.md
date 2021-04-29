@@ -41,6 +41,6 @@ res = gwasQxE(geno,
 A bug when argument Env = "trial" in the function gwasQxE has been fiexd.
 
 - 0.1.0
-The first vesrion of this repository.
+The first version of this repository.
 
 <!-- end list -->
