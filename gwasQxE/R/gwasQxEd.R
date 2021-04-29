@@ -167,9 +167,9 @@ gwasQxEd = function(geno,
   ZDtZ = tcrossprod(Zt) * ZDZ
   FIXED = cbind(FIXED, Zt)
   FIXED = make.full(FIXED)
+  Envs = unique(pheno[[Env]])
+  Ze = makeZ(pheno[[Env]], Envs)
   if (Env != "trial") {
-    Envs = unique(pheno[[Env]])
-    Ze = makeZ(pheno[[Env]], Envs)
     ZGeZ = tcrossprod(Ze) * ZGZ
     ZDeZ = tcrossprod(Ze) * ZDZ
     soln = gaston::lmm.aireml(Y = y, X = FIXED,

@@ -52,6 +52,9 @@ A data frame where the first to the third columns are the marker name, chromosom
 \author{
 Eiji Yamamoto
 }
+\references{
+Yamamoto and Matsunaga. 2021. Exploring efficient linear mixed models to detect quantitative trait locus-by-environ- ment interactions. G3 (Bethesda) doi: 10.1093/g3journal/jkab119.
+}
 \seealso{
 gwasQxE_all
 }

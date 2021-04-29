@@ -52,6 +52,9 @@ $pheno is data frame with the line names in the first column. The second and thi
 \author{
 Eiji Yamamoto
 }
+\references{
+Yamamoto and Matsunaga. 2021. Exploring efficient linear mixed models to detect quantitative trait locus-by-environ- ment interactions. G3 (Bethesda) doi: 10.1093/g3journal/jkab119.
+}
 \seealso{
 gwasQxE
 }

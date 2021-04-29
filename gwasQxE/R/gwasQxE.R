@@ -124,9 +124,9 @@ gwasQxE = function(geno,
   ZGtZ = tcrossprod(Tc) * ZGZ
   FIXED = cbind(FIXED, Tc)
   FIXED = make.full(FIXED)
+  Envs = unique(pheno[[Env]])
+  Ze = makeZ(pheno[[Env]], Envs)
   if (Env != "trial") {
-    Envs = unique(pheno[[Env]])
-    Ze = makeZ(pheno[[Env]], Envs)
     ZGeZ = tcrossprod(Ze) * ZGZ
     soln = gaston::lmm.aireml(Y = y, X = FIXED, K = list(ZGZ, ZGeZ, ZGtZ), verbose = FALSE)
     print("## variance components", quote = FALSE)
